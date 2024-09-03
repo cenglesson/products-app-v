@@ -38,7 +38,7 @@ This project utilizes a modern stack of technologies and tools to build and main
 
 - **JSDOM**: A JavaScript implementation of the DOM used for testing in a simulated browser environment.
 
-### Scripts
+## Scripts
 
 - **`npm start`**: Starts the development server using `react-scripts`. Opens the application in development mode at [http://localhost:3000](http://localhost:3000).
 
@@ -50,11 +50,13 @@ This project utilizes a modern stack of technologies and tools to build and main
 
 - **`npm run eject`**: Ejects the configuration from `react-scripts`, giving you full control over the build configuration (use with caution).
 
+
+
 ## Development Notes
 
 ### Sider Menu
 
-- The Sider (menu) isn't fixed as intended. Initially, when I managed to fix it and set `overflow: hidden;`, it caused issues with the infinite scroll functionality for loading more products. Balancing these two features would require further refinement.
+- The Sider (menu) isn't fixed as intended. Initially, when I managed to fix it and set `overflow: hidden;`, it caused issues with the infinite scroll functionality for loading more products. It require further work.
 
 ### UI Library Choice
 
