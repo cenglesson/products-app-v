@@ -2,7 +2,7 @@
 
 This project is a React application for browsing and managing products.
 
-The application is using the [dummyjson](https://dummyjson.com/) api to get a list of products. View product details, sort, filter and search for specific products by name.
+The application is using the [dummyjson](https://dummyjson.com/) api to view product details, sort, filter and search for specific products by name.
 
 ## Features
 
