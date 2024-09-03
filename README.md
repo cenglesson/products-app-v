@@ -49,3 +49,18 @@ This project utilizes a modern stack of technologies and tools to build and main
 - **`npm run test:watch`**: Runs the test suite in watch mode using Vitest, automatically re-running tests on code changes.
 
 - **`npm run eject`**: Ejects the configuration from `react-scripts`, giving you full control over the build configuration (use with caution).
+
+## Development Notes
+
+### Sider Menu
+
+- The Sider (menu) isn't fixed as intended. Initially, when I managed to fix it and set `overflow: hidden;`, it caused issues with the infinite scroll functionality for loading more products. Balancing these two features would require further refinement.
+
+### UI Library Choice
+
+- I chose to use Ant Design (AntD) instead of Material-UI (MUI) components. While MUI is a popular choice, I opted for AntD to ensure I could deliver a working solution within the time constraints. Given that I hadn't worked with MUI before, using it would have taken longer.
+
+### Testing
+
+- I acknowledge that more test files should have been added to the project. Currently, there is only one test file included, but additional tests would improve the reliability and maintainability of the codebase.
+
