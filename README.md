@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# Products App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React application for browsing and managing products.
 
-## Available Scripts
+The application is using the [dummyjson](https://dummyjson.com/) api to get a list of products. View product details, sort, filter and search for specific products by name.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+The interface of the product list with a preview of the product's price, brand, category, name, image and brief description has been implemented.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The products view includes a search bar and options for filtering and sorting, allowing users to easily find and organize products. Additionally, you can favorite products and view them later in the Favorites view.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Stack
 
-### `npm test`
+This project utilizes a modern stack of technologies and tools to build and maintain a React application. Here’s an overview of the key components:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **TypeScript**: A superset of JavaScript that provides static type definitions, helping catch errors early and improve code quality.
 
-### `npm run build`
+- **React**: A popular library for building user interfaces, allowing for the creation of reusable UI components.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Ant Design**: A comprehensive design system and UI component library for React that provides a set of high-quality components and design patterns.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Vite**: A fast build tool that provides a modern development experience with fast hot module replacement and optimized builds. Vite is used here with TypeScript support via `vite-tsconfig-paths`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Vitest**: A fast and modern test framework for unit and integration tests. It supports TypeScript out-of-the-box and integrates seamlessly with the rest of your stack.
 
-### `npm run eject`
+- **Redux**: A predictable state container for JavaScript apps, used here with the `@reduxjs/toolkit` package for easier Redux state management and `react-redux` for connecting Redux with React components.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **React Router DOM**: A routing library for React that enables navigation and rendering of different components based on the URL.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Axios**: A promise-based HTTP client for making requests to your backend or external APIs.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **Testing Library**: Includes `@testing-library/react` and `@testing-library/jest-dom` for testing React components, providing utilities for rendering components and asserting their behavior.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- **ESLint**: A tool for identifying and fixing problems in JavaScript and TypeScript code, configured with the `react-app` preset for React-specific linting rules.
 
-## Learn More
+- **Jest DOM**: Provides custom matchers for asserting on DOM nodes, making it easier to test React components with `@testing-library/react`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **JSDOM**: A JavaScript implementation of the DOM used for testing in a simulated browser environment.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Scripts
+
+- **`npm start`**: Starts the development server using `react-scripts`. Opens the application in development mode at [http://localhost:3000](http://localhost:3000).
+
+- **`npm run build`**: Creates a production build of the application using `react-scripts`, optimizing the output for performance.
+
+- **`npm run test`**: Runs the test suite using Vitest, executing tests and displaying results in the terminal.
+
+- **`npm run test:watch`**: Runs the test suite in watch mode using Vitest, automatically re-running tests on code changes.
+
+- **`npm run eject`**: Ejects the configuration from `react-scripts`, giving you full control over the build configuration (use with caution).

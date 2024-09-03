@@ -1,0 +1,37 @@
+.products-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.products-container__cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.products-header-container {
+  margin-bottom: 0.5rem;
+}
+
+.products-header__title {
+  line-height: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .products-container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .products-header-container {
+    text-align: center;
+  }
+
+  .products-container__cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

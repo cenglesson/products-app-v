@@ -1,0 +1,25 @@
+.button__icon {
+  vertical-align: middle;
+}
+
+.button__link {
+  margin: 0;
+  padding: 0;
+}
+
+.icon_button--no-text {
+  border: none !important;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+/** To get the icons centered in the buttton */
+.icon_button {
+  display: inline-flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  span {
+    display: flex !important;
+  }
+}

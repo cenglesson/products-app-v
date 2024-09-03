@@ -1,0 +1,47 @@
+.sider {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff !important;
+  padding: 0;
+  border-right: 1px solid var(--light-gray);
+}
+
+.sider__container {
+  background-color: #fff !important;
+  margin-bottom: 1.5rem;
+}
+
+.sider__menu {
+  border-right: none;
+  overflow: hidden;
+  background-color: #fff !important;
+}
+
+.Sider.ant-layout-sider-collapsed {
+  padding: 0;
+}
+
+.sider__expand-button {
+  display: flex;
+  position: sticky;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.sider__logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.sider__expand-text {
+  display: flex;
+  justify-content: center;
+  font-size: 12px !important;
+  margin-top: 0.5rem;
+}
